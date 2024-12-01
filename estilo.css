@@ -1,0 +1,206 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+background-color: #FFB700;
+}
+#bodyHome{
+    background-image: url(https://i0.wp.com/revistaestilo.org/wp-content/uploads/2020/06/1985-gerhard-richter-en-su-atelier.jpg?resize=1900%2C880&ssl=1);
+    background-size: 110%;
+}
+
+.tituloMenu{
+    font-size: 600%;
+    text-shadow: 8px 8px 8px rgb(248, 246, 246);
+    text-align: center;
+    color: #3B0000;
+    font-weight: bold;
+}
+
+#ingresar{
+    background-color: #3B0000;
+    margin: auto;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    display: block; 
+    width: fit-content; 
+    margin-top: 20px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%; 
+    height: 100%; 
+    background-color: white;
+    padding: 20px; 
+    text-decoration: none;
+padding-top: 10%;}
+
+nav a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-bottom: 30%; 
+    
+    }
+nav p{
+    display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-bottom: 30%; 
+        font-weight: bold;
+
+}
+nav a:hover {
+    color: #EB0000; 
+}
+
+
+section{
+    margin-left: 15%;
+
+}
+
+h1{
+    font-size: 400%;
+    text-align: center;
+}
+
+.slides{
+    display: flex;
+    flex-direction: column;
+}
+.slide{
+    overflow: hidden;
+}
+
+.slide img{
+
+    width: 600px;
+    height: auto;
+    margin-left: 20%;
+}
+
+.carousel button {
+    display: flex;
+    width: 45%;
+}
+
+.next{
+    float: right;
+}
+.prev{
+    float: left;
+}
+
+.galeriaimg{
+    width: 50%;
+    height: auto;
+    margin: 4%;
+
+}
+
+.contenedorgaleria{
+    position: relative;
+    display: inline-block;
+}
+
+.textoimg{
+    position: absolute;
+  top: 50%;
+  left: 30%;
+
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.galeriaimg:hover + .textoimg{
+    opacity: 1;
+    background-color: white;
+    padding: 5%;
+  }
+  
+  .contenedorobras {
+    width: 45%; 
+    display: inline-block;
+    vertical-align: top; 
+  }
+  .imgobras{
+    margin: 3%;
+    width: 70%;
+  }
+  .textoobras{
+    margin: 3%;
+    width: 70%;
+  }
+
+.noticiasdiv{
+    display: flex; 
+    justify-content: space-between;
+}
+
+#expoactuales, #expoproximas{
+    width: 49%;
+   
+}
+li{
+    margin-bottom: 10%;
+}
+li p{
+    font-weight: bold;
+}
+
+form {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,select,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3B0000;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3B0000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+aside{
+ 
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+aside img{
+    width: 5%;
+    margin: 2%;
+}
+aside a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
